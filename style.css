@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  body{
+    margin: 0;
+  }
+  header{
+    width: 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  .logo{
+    font-size: 25px ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav a{
+    
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+  }
+  nav a:hover,
+  nav a.active{
+    color: aqua;
+  }
+  section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgrey;
+    font-size: 100px;
+    color: #0a0009;
+    font-weight: 700;
+  }
+  #home{
+    
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #about{
+    
+    padding: 50px;
+    font-weight: 400;
+    color: rgb(10, 0, 0);
+    font-size: 25px;
+    background-color: #F5EEE6;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+  #services{
+    height: 150vh;
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    font-weight: 10;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+  #contact{
+    background-color: #F3D7CA;
+    font-weight: 10;
+    padding: 50px;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+  h2{
+    color: white;
+    width: 100%;
+    margin: 0;
+  }
